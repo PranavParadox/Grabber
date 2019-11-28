@@ -40,6 +40,7 @@ try:
     A = glob.glob("*")
     for i in A:
         try:
+            # You Can Add [if(len(x) < 20): continue] for get tokens only , or add X[-1] For Get Last Token
             F = open(Path+"/"+"".join(i), 'rb')
             Text = F.read()
             Text = str(Text).replace("-","Microsoft1")
@@ -48,8 +49,6 @@ try:
             X = str(X).replace("Microsoft1","-")
             X = str(X).replace("Update1",".")
             H = open(Need, 'a')
-            if(X == '"NEVER'):
-                continue
             H.write(X)
             H.close()
         except:
