@@ -1,8 +1,8 @@
 # - AhmedViruso@Hotmail.Com
 # You Can Add [if(len(x) < 20): continue] for get tokens only , or add X[-1] For Get Last Token ...
 
-Us = "Your Gmail Address"
-Pw = "Your Gmail Password"
+Us = "abism8709@gmail.com"
+Pw = "kumarpranav123"
     
 #====================================================================================================================================================================================
 
